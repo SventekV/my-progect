@@ -28,7 +28,7 @@ body {
 }
 
 .pop-app {
-  display: none;
+  display: flex;
   position: fixed;
   background-color: rgba(15, 13, 14, 0.5);
   top: 0;
@@ -37,20 +37,18 @@ body {
   right: 0;
   z-index: 5;
   justify-content: center;
+  align-items: center;
   }
 
 
 
   .pop-app-block {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+   
     position: relative;
-      min-width: 320px;
-      min-height: 320px;
+      min-width: 320px; 
 background-color: #ffffff; 
-      margin-top: 10%;
-      margin-bottom: 10%;
+
+    
       }
 
   .title-pop-app {
@@ -199,6 +197,7 @@ background-color: #ffffff;
   text-transform: uppercase;
   height: 47px;
   font-family: OpenSans-Bold;
+  margin-bottom: 30px;
 }
 
  .popapp_close {
@@ -607,6 +606,10 @@ margin-left: 15px;
   display: flex;
 }
 
+.post-img-view {
+  max-width: 380px;
+}
+
 .post:nth-child(n+2) {
   margin-top: 60px;
 }
@@ -725,6 +728,10 @@ margin-left: 15px;
 .new-post {
   display: flex;
   margin-top: 25px;
+  }
+
+  .new-post-img {
+    max-width: 70px;
   }
 
 .new-post-content {
