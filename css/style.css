@@ -599,7 +599,7 @@ margin-left: 15px;
 /*==========main==========*/
 
 .main {
- width: 778px;
+ max-width: 778px;
  }
 
 .post {
@@ -1223,6 +1223,7 @@ justify-content: space-around;}
 
 .main{
 max-width: 380px;
+width: 100%;
 } 
 
 .post {
@@ -1232,6 +1233,11 @@ max-width: 380px;
   padding-bottom: 20px;
 }
 
+.post-img-view {
+  width: 100%;
+
+}
+
 .post-title-link {
   line-height: 1.3;
   font-size: 17px;
@@ -1239,7 +1245,8 @@ max-width: 380px;
 
 .post-content {
   margin-left: 0;
-  max-width: 380px;
+  
+  width: 100%;
   
 }
 
